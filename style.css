@@ -1,0 +1,94 @@
+/* Estilo geral */
+body {
+  background-color: #f0f4f8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Seção de integrantes */
+#integrante {
+  padding: 40px;
+  text-align: center;
+}
+
+.membro {
+  margin-bottom: 40px;
+}
+
+.membro img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.membro h3 {
+  font-family: '', serif;
+}
+
+.membro a {
+  text-decoration: none;
+  color: #003366;
+  margin: 0 5px;
+}
+
+/* Tabela */
+#tarefas {
+  padding: 40px;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Sobre o projeto */
+#sobre {
+  padding: 40px;
+  background-color: #e1ecf4;
+  text-align: center;
+}
+
+/* Rodapé */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
